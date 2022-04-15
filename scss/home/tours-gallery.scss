@@ -1,0 +1,23 @@
+.tours-gallery{
+margin: 0 auto;
+max-width: 920px;
+min-height: 304px;
+//background-color: green;
+display: flex;
+justify-content: space-between;
+
+.image-box{
+    margin: 10px;
+    width: 236px;
+    height: 304px;
+    background-color: red;
+overflow: hidden;
+
+
+img{
+
+    background-position: center;
+    
+}
+}
+}

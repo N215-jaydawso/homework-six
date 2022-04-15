@@ -1,0 +1,40 @@
+nav {
+    margin: 0 auto;
+    margin-bottom: 10px;
+    max-width: $site-width;
+    min-height: $site-nav-footer-height;
+    //background-color: aqua;
+    display: flex;
+align-items: center;
+justify-content: space-between;
+border-bottom: 2px solid $site-black;
+
+
+    .logo{
+        width: 92px;
+        height: 42px;
+        margin: 0 auto;
+        
+        h3{
+            color: $site-black;
+        }
+        }
+
+    .links{
+
+        margin: 0 auto;
+        
+
+        a{
+
+            text-decoration: none;
+            color:$site-black;
+        }
+
+        span{
+
+            color: $site-black;
+        }
+    }
+
+}
